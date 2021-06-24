@@ -49,7 +49,7 @@ set_target_properties(carvig PROPERTIES ARCHIVE_OUTPUT_DIRECTORY
                       ${PROJECT_SOURCE_DIR}/lib)
 
 # add test
-add_subdirectory(test)
+#add_subdirectory(test)
 
 # add relative pose estimate library
 add_subdirectory(src/relative-pose)
